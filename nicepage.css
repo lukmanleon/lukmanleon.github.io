@@ -27106,8 +27106,8 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px){ .u-header .u-shape-1 {height: 38px; width: 440px}
 .u-header .u-menu-1 {margin-top: -32px; margin-left: 14px} }
  .u-footer {background-image: none}
-.u-footer .u-sheet-1 {min-height: 352px}
-.u-footer .u-layout-wrap-1 {margin: 50px 0 50px}
+.u-footer .u-sheet-1 {min-height: 302px}
+.u-footer .u-layout-wrap-1 {margin: 50px 0 0}
 .u-footer .u-layout-cell-1 {min-height: 126px}
 .u-footer .u-container-layout-1 {padding: 30px}
 .u-footer .u-icon-1 {height: 64px; width: 64px; margin: 0 auto}
@@ -27119,13 +27119,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-icon-3 {height: 64px; width: 64px; margin: 0 auto}
 .u-footer .u-layout-cell-4 {min-height: 126px}
 .u-footer .u-container-layout-4 {padding: 30px}
-.u-footer .u-text-1 {font-size: 1.25rem; margin: 0 auto}
+.u-footer .u-text-1 {font-size: 1.125rem; margin: 0 auto}
 .u-footer .u-layout-cell-5 {min-height: 126px}
 .u-footer .u-container-layout-5 {padding: 30px}
-.u-footer .u-text-2 {font-size: 1.25rem; margin: 0 26px}
+.u-footer .u-text-2 {font-size: 1.125rem; margin: 0 26px}
 .u-footer .u-layout-cell-6 {min-height: 126px}
 .u-footer .u-container-layout-6 {padding: 30px}
-.u-footer .u-text-3 {font-size: 1.25rem; margin: 0 auto} 
+.u-footer .u-text-3 {font-size: 1.125rem; margin: 0 auto} 
 @media (max-width: 1199px){ .u-footer .u-sheet-1 {min-height: 29px}
 .u-footer .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
 .u-footer .u-layout-cell-1 {min-height: 104px}
@@ -27148,10 +27148,9 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-container-layout-3 {padding-left: 10px; padding-right: 10px}
 .u-footer .u-container-layout-4 {padding-left: 10px; padding-right: 10px}
 .u-footer .u-container-layout-5 {padding-left: 10px; padding-right: 10px}
-.u-footer .u-text-2 {margin-left: 41px; margin-right: 41px}
+.u-footer .u-text-2 {margin-left: auto; margin-right: auto}
 .u-footer .u-container-layout-6 {padding-left: 10px; padding-right: 10px} }
-@media (max-width: 575px){ .u-footer .u-sheet-1 {min-height: 282px}
-.u-footer .u-text-2 {margin-left: 26px; margin-right: 26px} }
+@media (max-width: 575px){ .u-footer .u-sheet-1 {min-height: 282px} }
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
