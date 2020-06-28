@@ -1,8 +1,10 @@
-.u-section-1 {background-image: url("images/BlenderLogo1.jpg"); background-position: 50% 21.13%}
-.u-section-1 .u-sheet-1 {min-height: 500px}.u-section-2 .u-sheet-1 {min-height: 50px}.u-block-e623-2 {position: absolute; bottom: 10px}
+.u-section-1 {background-image: url("images/BlenderLogo1.jpg"); background-position: 50% 28.17%}
+.u-section-1 .u-sheet-1 {min-height: 400px} 
+
+@media (max-width: 1199px){ .u-section-1 .u-sheet-1 {min-height: 500px} }.u-section-2 .u-sheet-1 {min-height: 50px}.u-block-e623-2 {position: absolute; bottom: 10px}
 .u-block-e623-3 {position: absolute; left: 0; width: 50px; height: 50px}
 .u-block-e623-4 {position: absolute; right: 0; width: 50px; height: 50px}.u-section-3-1 {background-image: url("images/AirBaloonACP.png"); background-position: 50% 50%}
-.u-section-3-1 .u-sheet-1 {min-height: 636px} 
+.u-section-3-1 .u-sheet-1 {min-height: 496px} 
 
 @media (max-width: 1199px){ .u-section-3-1 .u-sheet-1 {min-height: 346px} }
 
