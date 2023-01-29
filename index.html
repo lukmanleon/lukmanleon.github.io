@@ -19,51 +19,16 @@
 
   <body>
     <!--NAVIGATION MENU-->
-    <nav class="navigation">
-      <ul>
-        <li class="list active">
-          <a href="#">
-            <span class="icon">
-              <i class="fa fa-user-circle" aria-hidden="true"> </i
-            ></span>
-            <span class="text">About me</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#">
-            <span class="icon">
-              <i class="fa fa-file-text-o" aria-hidden="true"> </i
-            ></span>
-            <span class="text">Resume</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#">
-            <span class="icon">
-              <i class="fa fa-fire" aria-hidden="true"> </i
-            ></span>
-            <span class="text">My Hobbies</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#">
-            <span class="icon">
-              <i class="fa fa-home" aria-hidden="true"> </i
-            ></span>
-            <span class="text">Contact Info</span>
-          </a>
-        </li>
-        <div class="indicator"></div>
-      </ul>
+    <nav class="menu">
+      <input type="radio" name="nav-item" id="m-home" checked />
+      <label for="m-home">About Me</label>
+      <input type="radio" name="nav-item" id="m-resume" checked />
+      <label for="m-resume">Resume</label>
+      <input type="radio" name="nav-item" id="m-hobbies" checked />
+      <label for="m-hobbies">My Hobbies</label>
+      <input type="radio" name="nav-item" id="m-contact" checked />
+      <label for="m-contact">Contact Info</label>
+      <div class="selector">selector</div>
     </nav>
-
-    <script>
-      const list = document.querySelectorAll(".list");
-      function activeLink() {
-        list.forEach((item) => item.classList.remove("active"));
-        this.classList.add("active");
-      }
-      list.forEach((item) => item.addEventListener("click", activeLink));
-    </script>
   </body>
 </html>
