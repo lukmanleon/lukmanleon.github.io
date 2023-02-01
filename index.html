@@ -10,7 +10,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
     <title>Lukman Leon</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="website_styles/style_general.css" />
+    <link rel="stylesheet" href="website_styles/style_header.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--ICONS IMPORT-->
@@ -18,17 +19,26 @@
   </head>
 
   <body>
-    <!--NAVIGATION MENU-->
-    <nav class="menu">
-      <input type="radio" name="nav-item" id="m-home" checked />
-      <label for="m-home">About Me</label>
-      <input type="radio" name="nav-item" id="m-resume" checked />
-      <label for="m-resume">Resume</label>
-      <input type="radio" name="nav-item" id="m-hobbies" checked />
-      <label for="m-hobbies">My Hobbies</label>
-      <input type="radio" name="nav-item" id="m-contact" checked />
-      <label for="m-contact">Contact Info</label>
-      <div class="selector">selector</div>
-    </nav>
+    <header>
+      <nav class="navigation-menu">
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">My Hobbies</a></li>
+          <li><a href="#">Contact Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div style="height: 200px">MIDDLE</div>
+
+    <footer>
+      <div class="social-media-card">
+        <div class="social-media-thumbnail">
+          <img class="icon" src="icons/icon_envelope.svg" alt="" />
+        </div>
+        <p>lukman.leon@gmail.com</p>
+      </div>
+    </footer>
   </body>
 </html>
