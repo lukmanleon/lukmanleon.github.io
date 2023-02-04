@@ -1,12 +1,34 @@
 /*CUSTOM PROPERTIES*/
 :root {
-  --color-background: #ffffff;
-  --color-navigation-background: #4e8397;
+  --color-background-white: #ffffff;
+  --color-navigation-background-blue: #00416a;
   --color-text-white: #ffffff;
+  --color-general-white: #ffffff;
+
   font-family: Roboto, Arial, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+#mtoast {
+  /* (A) POSITION */
+  position: fixed;
+  z-index: 99;
+  bottom: 5%;
+  right: 50%;
+
+  /* (B) DIMENSION */
+  width: 200px;
+  padding: 10px;
+
+  /* (C) COLORS */
+  border: 2px solid #c52828;
+  background: #ffebe1;
+  border: 2px solid #000;
+
+  /* (D) HIDDEN BY DEFAULT */
+  display: block;
 }
