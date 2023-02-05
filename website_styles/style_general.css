@@ -2,8 +2,10 @@
 :root {
   --color-background-white: #ffffff;
   --color-navigation-background-blue: #00416a;
-  --color-text-white: #ffffff;
   --color-general-white: #ffffff;
+  --color-general-blue: #00416a;
+  --color-text-white: #ffffff;
+  --color-text-blue: #00416a;
 
   font-family: Roboto, Arial, sans-serif;
 }
@@ -11,17 +13,25 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #mtoast {
   z-index: 99;
-  padding: 15px;
-  border: 10px solid var(--color-general-white);
-  background: var(--color-navigation-background-blue);
-  color: var(--color-text-white);
+  height: 20px;
+  border: 1px solid var(--color-general-blue);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--color-text-blue);
+  box-shadow: 0px 1px 8px var(--color-general-blue);
+  margin-bottom: 20px;
+  padding: 20px;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   display: none;
 }

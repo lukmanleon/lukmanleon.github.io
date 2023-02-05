@@ -3,6 +3,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--color-navigation-background-blue);
+  width: 100%;
   height: 300px;
 }
 

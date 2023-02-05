@@ -12,6 +12,7 @@
     <title>Lukman Leon</title>
     <link rel="stylesheet" href="website_styles/style_general.css" />
     <link rel="stylesheet" href="website_styles/style_header.css" />
+    <link rel="stylesheet" href="website_styles/style_main.css" />
     <link rel="stylesheet" href="website_styles/style_footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,13 +39,16 @@
       </nav>
     </header>
 
-    <div style="height: 200px">MIDDLE</div>
+    <div style="height: 600px">MIDDLE</div>
 
     <!-- TOAST MESSAGE -->
-    <div id="mtoast"></div>
+    <div id="mtoast">My email address has been copied to your clipboard!</div>
 
     <footer>
-      <div class="social-media-card">
+      <div
+        class="social-media-card"
+        onclick="copyEmailToClipboard('myEmailAddress')"
+      >
         <div class="social-media-thumbnail">
           <img
             class="social-icon"
@@ -83,8 +87,8 @@
 
         /* Display message and then hide it */
         let toast = document.getElementById("mtoast");
-        toast.innerHTML =
-          "My email address has been copied to your clipboard!";
+        toast.innerHTML = "My email address has been copied to your clipboard!";
+
         toast.style.display = "block";
         setTimeout(function () {
           toast.style.display = "none";
