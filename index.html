@@ -40,6 +40,9 @@
 
     <div style="height: 200px">MIDDLE</div>
 
+    <!-- TOAST MESSAGE -->
+    <div id="mtoast"></div>
+
     <footer>
       <div class="social-media-card">
         <div class="social-media-thumbnail">
@@ -71,20 +74,21 @@
       </div>
     </footer>
 
-    <!-- TOAST MESSAGE -->
-    <div id="mtoast" onclick="this.style.display='none'">hello</div>
-
     <!--JAVASCRIPT-->
     <script>
       function copyEmailToClipboard(id) {
-        let text = document.getElementById(id).innerHTML;
         /* Copy text into clipboard */
+        let text = document.getElementById(id).innerHTML;
         navigator.clipboard.writeText(text);
-        //alert("My email address has been copied to your clipboard");
 
-        var toast = document.getElementById('mtoast');
-        toast.innerHTML = msg;
-        toast.classList.add("show");
+        /* Display message and then hide it */
+        let toast = document.getElementById("mtoast");
+        toast.innerHTML =
+          "My email address has been copied to your clipboard!";
+        toast.style.display = "block";
+        setTimeout(function () {
+          toast.style.display = "none";
+        }, 3500); // <-- time in milliseconds
       }
     </script>
   </body>

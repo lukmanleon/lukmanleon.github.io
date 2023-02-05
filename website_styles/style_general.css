@@ -14,21 +14,14 @@ body {
 }
 
 #mtoast {
-  /* (A) POSITION */
-  position: fixed;
   z-index: 99;
-  bottom: 5%;
-  right: 50%;
-
-  /* (B) DIMENSION */
-  width: 200px;
-  padding: 10px;
-
-  /* (C) COLORS */
-  border: 2px solid #c52828;
-  background: #ffebe1;
-  border: 2px solid #000;
-
-  /* (D) HIDDEN BY DEFAULT */
-  display: block;
+  padding: 15px;
+  border: 10px solid var(--color-general-white);
+  background: var(--color-navigation-background-blue);
+  color: var(--color-text-white);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  display: none;
 }
