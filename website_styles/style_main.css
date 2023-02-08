@@ -1,0 +1,37 @@
+main {
+  width: 100%;
+  min-height: 50vh;
+  margin-top: 50px;
+}
+
+.knowledge-and-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.knowledge-and-experience h3 {
+  font-size: 24px;
+  text-decoration: underline 2px;
+  text-align: left;
+}
+
+.education {
+  display: block;
+  padding-bottom: 15px;
+  padding-left: 500px;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.education-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
