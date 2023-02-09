@@ -1,127 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="author" content="Leon Lukman" />
-    <meta
-      name="description"
-      content="My personal website to tell people more about myself."
-    />
-    <meta name="keywords" content="HTML, CSS, JavaScript" />
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/icons/icon_leon_favicon.ico" />
-    <title>Lukman Leon</title>
-    <link rel="stylesheet" href="website_styles/style_general.css" />
-    <link rel="stylesheet" href="website_styles/style_header.css" />
-    <link rel="stylesheet" href="website_styles/style_main.css" />
-    <link rel="stylesheet" href="website_styles/style_footer.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta name="author" content="Leon Lukman" />
+  <meta name="description" content="My personal website to tell people more about myself." />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/icons/icon_leon_favicon.ico" />
+  <title>Lukman Leon</title>
+  <link rel="stylesheet" href="website_styles/style_general.css" />
+  <link rel="stylesheet" href="website_styles/style_header.css" />
+  <link rel="stylesheet" href="website_styles/style_main.css" />
+  <link rel="stylesheet" href="website_styles/style_footer.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+    rel="stylesheet" />
 
-    <!--ICONS IMPORT-->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <header>
-      <nav class="navigation-menu">
-        <div class="navigation-links">
-          <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">My Hobbies</a></li>
-            <li><a href="#">Contact Info</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <!--ICONS IMPORT-->
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
 
-    <main>
-      <div class="knowledge-and-experience">
-        <h3>Education:</h3>
-        <div class="education">
+<body>
+  <header>
+    <nav class="navigation-menu">
+      <div class="navigation-links">
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">My Hobbies</a></li>
+          <li><a href="#">Contact Info</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-          <div class="education-item">
-            <div class="education-duration">
-              <div class="year-star">2018.-</div>
-              <div class="year-end">2020.</div>
-            </div>
+  <main>
+    <div class="knowledge-and-experience">
+      <h3>Education</h3>
+      <div class="education">
 
-            <div class="education-information">
-              <div class="education-level">
+        <div class="education-item">
+          <div class="education-duration">
+            <span>2018.&#8212 2020.</span>
+          </div>
+          <div class="circle">&#9711</div>
+          <div class="education-information">
+            <div class="education-level">Master of informatics</div>
+            <div class="education-level-information">
+              <p>
                 University of Zagreb, Faculty of Organization and Informatics
-              </div>
-
-              <div class="education-level-information">
-                <p>Field of study: Business systems</p>
-                <p>Final paper: Population projection</p>
-                <p>Title: Master of science in information technology</p>
-              </div>
-
+              </p>
+              <p>Field of study:<span>Organisation of business systems</span></p>
+              <p>
+                Master's thesis:<span>Development of an intelligent system based on a decision tree</span></p>
             </div>
           </div>
         </div>
-      </div>
-    </main>
 
-    <!-- TOAST MESSAGE -->
-    <div id="mtoast">My email address has been copied to your clipboard!</div>
-
-    <footer>
-      <div
-        class="social-media-card"
-        onclick="copyEmailToClipboard('myEmailAddress')"
-      >
-        <div class="social-media-thumbnail">
-          <img
-            class="social-icon"
-            src="icons/icon_envelope.svg"
-            onclick="copyEmailToClipboard('myEmailAddress')"
-          />
+        <div class="education-item">
+          <div class="education-duration">
+            <span>2014.&#8212 2018.</span>
+          </div>
+          <div class="circle">&#9711</div>
+          <div class="education-information">
+            <div class="education-level">Bachelor of science in information technology</div>
+            <div class="education-level-information">
+              <p>
+                University of Zagreb, Faculty of Organization and Informatics
+              </p>
+              <p>Field of study:<span>Business systems</span></p>
+              <p>
+                Master's thesis:<span>Population projection</span></p>
+            </div>
+          </div>
         </div>
-        <p id="myEmailAddress">lukman.leon@gmail.com</p>
+
+
       </div>
+    </div>
+  </main>
 
-      <div class="social-media-card">
-        <div class="social-media-thumbnail">
-          <a href="https://www.linkedin.com/in/lukmanleon/" target="_blank">
-            <img class="social-icon" src="icons/icon_linkedin.svg" alt="" />
-          </a>
-        </div>
-        <p>linkedin.com/in/lukmanleon</p>
+  <!-- TOAST MESSAGE -->
+  <div id="mtoast">My email address has been copied to your clipboard!</div>
+
+  <footer>
+    <div class="social-media-card" onclick="copyEmailToClipboard('myEmailAddress')">
+      <div class="social-media-thumbnail">
+        <img class="social-icon" src="icons/icon_envelope.svg" onclick="copyEmailToClipboard('myEmailAddress')" />
       </div>
+      <p id="myEmailAddress">lukman.leon@gmail.com</p>
+    </div>
 
-      <div class="social-media-card">
-        <div class="social-media-thumbnail">
-          <a href="https://github.com/lukmanleon" target="_blank">
-            <img class="social-icon" src="icons/icon_github.svg" alt="" />
-          </a>
-        </div>
-        <p>github.com/lukmanleon</p>
+    <div class="social-media-card">
+      <div class="social-media-thumbnail">
+        <a href="https://www.linkedin.com/in/lukmanleon/" target="_blank">
+          <img class="social-icon" src="icons/icon_linkedin.svg" alt="" />
+        </a>
       </div>
-    </footer>
+      <p>linkedin.com/in/lukmanleon</p>
+    </div>
 
-    <!--JAVASCRIPT-->
-    <script>
-      function copyEmailToClipboard(id) {
-        /* Copy text into clipboard */
-        let text = document.getElementById(id).innerHTML;
-        navigator.clipboard.writeText(text);
+    <div class="social-media-card">
+      <div class="social-media-thumbnail">
+        <a href="https://github.com/lukmanleon" target="_blank">
+          <img class="social-icon" src="icons/icon_github.svg" alt="" />
+        </a>
+      </div>
+      <p>github.com/lukmanleon</p>
+    </div>
+  </footer>
 
-        /* Display message and then hide it */
-        let toast = document.getElementById("mtoast");
-        toast.innerHTML = "My email address has been copied to your clipboard!";
+  <!--JAVASCRIPT-->
+  <script>
+    function copyEmailToClipboard(id) {
+      /* Copy text into clipboard */
+      let text = document.getElementById(id).innerHTML;
+      navigator.clipboard.writeText(text);
 
-        toast.style.display = "block";
-        setTimeout(function () {
-          toast.style.display = "none";
-        }, 3500); // <-- time in milliseconds
-      }
-    </script>
-  </body>
+      /* Display message and then hide it */
+      let toast = document.getElementById("mtoast");
+      toast.innerHTML = "My email address has been copied to your clipboard!";
+
+      toast.style.display = "block";
+      setTimeout(function () {
+        toast.style.display = "none";
+      }, 3500); // <-- time in milliseconds
+    }
+  </script>
+</body>
+
 </html>

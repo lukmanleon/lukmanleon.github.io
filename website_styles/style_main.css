@@ -1,7 +1,8 @@
 main {
-  width: 100%;
+  width: 80%;
   min-height: 50vh;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .knowledge-and-experience {
@@ -11,27 +12,56 @@ main {
 }
 
 .knowledge-and-experience h3 {
+  display: inline-block;
   font-size: 24px;
   text-decoration: underline 2px;
-  text-align: left;
 }
 
 .education {
-  display: block;
-  padding-bottom: 15px;
-  padding-left: 500px;
+  display: inline-block;
+  align-items: left;
 }
 
 .education-item {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  align-items: center;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.education-item .circle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-general-blue);
+  margin-left: 30px;
 }
 
 .education-duration {
+  width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  align-items: center;
+}
+
+.education-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.education-level,
+.education-duration span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.education-level-information {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.education-level-information span {
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 1%;
 }
