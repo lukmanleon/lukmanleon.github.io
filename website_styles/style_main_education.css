@@ -1,0 +1,49 @@
+.education {
+  display: inline-block;
+  align-items: left;
+}
+
+.education-item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.education-item .circle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-general-blue);
+  margin-left: 30px;
+}
+
+.education-duration {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.education-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.education-level,
+.education-duration span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.education-level-information {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.education-level-information span {
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 1%;
+}
