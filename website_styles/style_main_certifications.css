@@ -1,0 +1,33 @@
+.certificates {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 100px;
+  overflow: hidden;
+}
+
+.certificate-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350;
+  overflow: hidden;
+}
+
+.certificate-image {
+  height: 250px;
+  width: 80%;
+  object-fit: fill;
+  object-position: bottom;
+  vertical-align: middle;
+}
+
+.certificate-name {
+  padding-top: 20px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-text-blue);
+}

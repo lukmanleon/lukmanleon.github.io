@@ -14,5 +14,5 @@ main {
 .knowledge-and-experience h3 {
   display: inline-block;
   font-size: 24px;
-  text-decoration: underline 2px;
+  border-bottom: 2px solid var(--color-general-blue);
 }

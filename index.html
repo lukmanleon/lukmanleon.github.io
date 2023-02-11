@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="website_styles/style_main.css" />
   <link rel="stylesheet" href="website_styles/style_main_work_experience.css" />
   <link rel="stylesheet" href="website_styles/style_main_education.css" />
+  <link rel="stylesheet" href="website_styles/style_main_certifications.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -73,8 +74,6 @@
       </div>
 
 
-
-
       <h3>Education</h3>
       <div class="education">
         <div class="education-item">
@@ -115,6 +114,27 @@
       </div>
 
 
+      <h3>Certifications</h3>
+      <div class="certificates">
+        <div class="certificate-item">
+          <img class="certificate-image" src="images/image_certificate_googledigitalgarage.PNG"></img>
+          <div class="certificate-name">Google Digital Garage</div>
+        </div>
+        <div class="certificate-item">
+          <img class="certificate-image" src="images/image_certificate_googleanalytics.PNG"></img>
+          <div class="certificate-name">Google Analytics Academy</div>
+        </div>
+        <div class="certificate-item">
+          <img class="certificate-image" src="images/image_certificate_ms_dynamics.PNG"></img>
+          <div class="certificate-name">Microsoft Dynamics</div>
+        </div>
+        <div class="certificate-item">
+          <img class="certificate-image" src="images/image_certificate_ms_c_sharp.PNG"></img>
+          <div class="certificate-name">Microsoft Virtual Academy</div>
+        </div>
+
+      </div>
+
     </div>
   </main>
 
@@ -122,49 +142,36 @@
   <div id="mtoast">My email address has been copied to your clipboard!</div>
 
   <footer>
-    <div class="social-media-card" onclick="copyEmailToClipboard('myEmailAddress')">
-      <div class="social-media-thumbnail">
-        <img class="social-icon" src="icons/icon_envelope.svg" onclick="copyEmailToClipboard('myEmailAddress')" />
+    <div class="social-media-account">
+      <div class="social-media-card" onclick="copyEmailToClipboard('myEmailAddress')">
+        <div class="social-media-thumbnail">
+          <img class="social-icon" src="icons/icon_envelope.svg" onclick="copyEmailToClipboard('myEmailAddress')" />
+        </div>
+        <p id="myEmailAddress">lukman.leon@gmail.com</p>
       </div>
-      <p id="myEmailAddress">lukman.leon@gmail.com</p>
-    </div>
 
-    <div class="social-media-card">
-      <div class="social-media-thumbnail">
-        <a href="https://www.linkedin.com/in/lukmanleon/" target="_blank">
-          <img class="social-icon" src="icons/icon_linkedin.svg" alt="" />
-        </a>
+      <div class="social-media-card">
+        <div class="social-media-thumbnail">
+          <a href="https://www.linkedin.com/in/lukmanleon/" target="_blank">
+            <img class="social-icon" src="icons/icon_linkedin.svg" alt="" />
+          </a>
+        </div>
+        <p>linkedin.com/in/lukmanleon</p>
       </div>
-      <p>linkedin.com/in/lukmanleon</p>
-    </div>
 
-    <div class="social-media-card">
-      <div class="social-media-thumbnail">
-        <a href="https://github.com/lukmanleon" target="_blank">
-          <img class="social-icon" src="icons/icon_github.svg" alt="" />
-        </a>
+      <div class="social-media-card">
+        <div class="social-media-thumbnail">
+          <a href="https://github.com/lukmanleon" target="_blank">
+            <img class="social-icon" src="icons/icon_github.svg" alt="" />
+          </a>
+        </div>
+        <p>github.com/lukmanleon</p>
       </div>
-      <p>github.com/lukmanleon</p>
     </div>
   </footer>
 
   <!--JAVASCRIPT-->
-  <script>
-    function copyEmailToClipboard(id) {
-      /* Copy text into clipboard */
-      let text = document.getElementById(id).innerHTML;
-      navigator.clipboard.writeText(text);
-
-      /* Display message and then hide it */
-      let toast = document.getElementById("mtoast");
-      toast.innerHTML = "My email address has been copied to your clipboard!";
-
-      toast.style.display = "block";
-      setTimeout(function () {
-        toast.style.display = "none";
-      }, 3500); // <-- time in milliseconds
-    }
-  </script>
+  <script src="website_js/copyEmail.js"></script>
 </body>
 
 </html>
