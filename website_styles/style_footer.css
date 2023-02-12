@@ -1,6 +1,7 @@
 footer {
   background-color: var(--color-navigation-background-blue);
   height: 300px;
+  padding-top: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
