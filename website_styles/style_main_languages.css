@@ -1,0 +1,41 @@
+.languages {
+  display: inline-block;
+  align-items: left;
+}
+
+.languages p {
+  font-size: 20px;
+}
+.languages p span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.languages-table {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+table,
+th,
+td {
+  padding: 10px 15px 10px 15px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.row-two {
+  border-bottom: 2px solid var(--color-general-blue);
+}
+.row-five {
+  border-top: 2px solid var(--color-general-blue);
+  font-size: 18px;
+}
+.row-three:hover,
+.row-four:hover {
+  background-color: var(--color-general-blue);
+  color: var(--color-text-white);
+}
