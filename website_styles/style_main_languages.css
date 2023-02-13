@@ -4,7 +4,7 @@
 }
 
 .languages p {
-  font-size: 20px;
+  font-size: var(--size-text-info);
 }
 .languages p span {
   font-style: italic;
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: var(--size-text-normal);
 }
 
 table,
@@ -32,7 +32,7 @@ td {
 }
 .row-five {
   border-top: 2px solid var(--color-general-blue);
-  font-size: 18px;
+  font-size: var(--size-text-label);
 }
 .row-three:hover,
 .row-four:hover {

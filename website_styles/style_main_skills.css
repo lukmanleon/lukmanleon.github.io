@@ -1,0 +1,5 @@
+.digital-skills-text,
+.soft-skills-text {
+  font-size: var(--size-text-normal);
+  text-align: justify;
+}

@@ -1,7 +1,7 @@
 main {
   width: 80%;
   min-height: 50vh;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 
@@ -13,8 +13,7 @@ main {
 
 .knowledge-and-experience h3 {
   display: inline-block;
-  font-size: 24px;
   border-bottom: 2px solid var(--color-general-blue);
-  margin-top: 80px;
-
+  margin-top: 50px;
+  font-size: var(--size-text-title);
 }

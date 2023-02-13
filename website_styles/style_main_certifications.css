@@ -1,8 +1,9 @@
 .certificates {
   margin-top: 50px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
+  column-gap: 20px;
   row-gap: 100px;
   overflow: hidden;
 }
@@ -26,7 +27,7 @@
 
 .certificate-name {
   padding-top: 20px;
-  font-size: 24px;
+  font-size: var(--size-text-info);
   font-style: italic;
   font-weight: 500;
   color: var(--color-text-blue);

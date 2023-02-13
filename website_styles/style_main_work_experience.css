@@ -7,11 +7,11 @@
   display: flex;
   flex-direction: row;
   margin-left: 15%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .work-item .circle {
-  font-size: 24px;
+  font-size: var(--size-text-normal);
   font-weight: 600;
   color: var(--color-general-blue);
   margin-left: 30px;
@@ -33,13 +33,13 @@
 
 .work-level,
 .work-duration span {
-  font-size: 24px;
+  font-size: var(--size-text-normal);
   font-weight: 500;
 }
 
 .work-level-information {
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: var(--size-text-info);
+  margin-top: 10px;
   margin-left: 40px;
 }
 .work-level-information span {
