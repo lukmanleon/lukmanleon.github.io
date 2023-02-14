@@ -5,15 +5,17 @@ header {
 .navigation-menu {
   background-color: var(--color-navigation-background-blue);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  min-height: 10vh;
+  min-height: 15vh;
 }
 
+.navigation-menu-icon img {
+  height: 150px;
+}
 .navigation-links {
-  flex: 1;
   text-align: center;
 }
 
