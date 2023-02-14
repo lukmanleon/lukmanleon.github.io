@@ -7,16 +7,22 @@
   margin-bottom: 100px;
 }
 
-.hard-skills-category-item {
+.hard-skills-category {
+  font-weight: 600;
   padding-left: 5%;
   padding-top: 20px;
 }
+
 .hard-skills-sub-category {
   padding-left: 10%;
+  padding-top: 8px;
 }
 
 .hard-skills-sub-category-item {
   padding-left: 15%;
+  padding-top: 8px;
+  font-style: italic;
+  font-size: var(--size-text-info);
 }
 
 .digital-skills-text,
