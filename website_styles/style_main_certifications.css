@@ -18,8 +18,7 @@
 }
 
 .certificate-image {
-  height: 250px;
-  width: 80%;
+  height: 240px;
   object-fit: fill;
   object-position: bottom;
   vertical-align: middle;

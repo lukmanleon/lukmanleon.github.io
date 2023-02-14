@@ -1,5 +1,10 @@
 header {
   width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
 }
 
 .navigation-menu {
@@ -9,11 +14,12 @@ header {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  min-height: 15vh;
+  min-height: 2vh;
 }
 
 .navigation-menu-icon img {
   height: 150px;
+  padding-right: 80px;
 }
 .navigation-links {
   text-align: center;

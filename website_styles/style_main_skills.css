@@ -1,3 +1,24 @@
+.hard-skills {
+  display: inline-block;
+  align-items: left;
+  font-size: var(--size-text-normal);
+
+  background-color: lightblue;
+  margin-bottom: 100px;
+}
+
+.hard-skills-category-item {
+  padding-left: 5%;
+  padding-top: 20px;
+}
+.hard-skills-sub-category {
+  padding-left: 10%;
+}
+
+.hard-skills-sub-category-item {
+  padding-left: 15%;
+}
+
 .digital-skills-text,
 .soft-skills-text {
   font-size: var(--size-text-normal);

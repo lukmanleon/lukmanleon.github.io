@@ -1,8 +1,9 @@
 footer {
   background-color: var(--color-navigation-background-blue);
-  height: 300px;
-  padding-top: 50px;
   width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: center;
 }
