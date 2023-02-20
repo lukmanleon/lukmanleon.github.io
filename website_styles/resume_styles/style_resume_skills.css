@@ -1,0 +1,22 @@
+.hard-skills {
+  display: inline-block;
+  align-items: left;
+  font-size: var(--size-text-normal);
+}
+
+.hard-skills span {
+  font-weight: 600;
+  font-size: var(--size-text-normal);
+  padding-right: 20px;
+}
+
+.hard-skills p {
+  font-size: var(--size-text-info);
+  font-style: italic;
+}
+
+.digital-skills-text,
+.soft-skills-text {
+  font-size: var(--size-text-normal);
+  text-align: justify;
+}
