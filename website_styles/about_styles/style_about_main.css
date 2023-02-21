@@ -1,6 +1,42 @@
 main {
   width: 80%;
   min-height: 60vh;
-  margin-top: 35vh;
+  margin-top: 30vh;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: var(--size-text-title);
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 5vh;
+  border-bottom: 2px solid var(--color-general-blue);
+}
+
+.about-intro {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-intro-text {
+  font-size: var(--size-text-normal);
+}
+
+.about-intro-image img {
+  width: 300px;
+  height: 300px;
+}
+
+.about-intro-image img {
+  border-radius: 100%;
+  object-fit: none;
+  height: 50%;
+  object-position: 90% 20%;
 }
