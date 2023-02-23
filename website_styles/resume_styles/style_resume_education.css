@@ -42,6 +42,9 @@
   margin-top: 10px;
   margin-left: 40px;
 }
+.education-level-information p {
+  padding-top: 1vh;
+}
 .education-level-information span {
   font-style: italic;
   font-weight: 500;

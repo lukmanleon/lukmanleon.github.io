@@ -1,4 +1,6 @@
 .hard-skills {
+  padding-top: 5vh;
+
   display: inline-block;
   align-items: left;
   font-size: var(--size-text-normal);
@@ -13,10 +15,13 @@
 .hard-skills p {
   font-size: var(--size-text-info);
   font-style: italic;
+  padding-top: 1vh;
 }
 
 .digital-skills-text,
 .soft-skills-text {
+  padding-top: 5vh;
   font-size: var(--size-text-normal);
   text-align: justify;
+  line-height: 1.5;
 }

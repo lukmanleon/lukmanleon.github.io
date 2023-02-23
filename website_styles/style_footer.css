@@ -28,6 +28,7 @@ footer {
   width: 100%;
   color: var(--color-text-white);
   font-size: 18px;
+  margin-top: 1.5vh;
   opacity: 0;
   transition: opacity 0.5s;
 }
