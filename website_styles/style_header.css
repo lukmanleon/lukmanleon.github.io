@@ -1,4 +1,5 @@
 header {
+  min-height: 100vh;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -10,15 +11,15 @@ header {
 .navigation-menu {
   background-color: var(--color-navigation-background-blue);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  min-height: 2vh;
 }
 
-.navigation-menu-icon img {
+.navigation-menu-icon {
   height: 100px;
+  padding-right: 5vh;
 }
 .navigation-links {
   text-align: center;
@@ -28,7 +29,6 @@ header {
   list-style: none;
   display: inline-block;
   position: relative;
-  padding-right: 50px;
 }
 .navigation-menu ul li::after {
   background: var(--color-text-white);

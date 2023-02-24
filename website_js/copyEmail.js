@@ -12,3 +12,11 @@ function copyEmailToClipboard(id) {
     toast.style.display = "none";
   }, 3500); // <-- time in milliseconds
 }
+
+var navLinks = document.getElementById("navigation-links");
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu() {
+  navLinks.style.right = "-200px";
+}
