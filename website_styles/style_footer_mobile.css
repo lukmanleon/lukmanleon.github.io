@@ -1,0 +1,34 @@
+@media (max-width: 700px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .social-media-account {
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .social-media-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-media-card p {
+    font-size: 10pt;
+    margin-top: 1vh;
+    opacity: 1;
+  }
+
+  .social-media-thumbnail {
+    border: none;
+    border-radius: none;
+  }
+  .social-icon {
+    width: 40px;
+    padding: 0;
+  }
+}

@@ -12,12 +12,20 @@
   --color-text-white: #ffffff;
   --color-text-blue: #00416a;
 
-  --size-text-quote: 48px;
+
+  --size-text-quote: 34pt;
   --size-text-title: 32px;
   --size-text-menu: 24px;
   --size-text-normal: 24px;
-  --size-text-info: 20px;
+  --size-text-info: 16pt;
   --size-text-label: 16px;
+
+  --size-text-quote-mobile: 16pt;
+  --size-text-title-mobile: 32px;
+  --size-text-menu-mobile: 24px;
+  --size-text-normal-mobile: 14pt;
+  --size-text-info-mobile: 20px;
+  --size-text-label-mobile: 16px;
 
   font-family: Roboto, Arial, sans-serif;
 }
