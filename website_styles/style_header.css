@@ -1,36 +1,38 @@
 header {
-  min-height: 100vh;
+  height: 10vh;
   width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 100;
 }
 
 .navigation-menu {
   background-color: var(--color-navigation-background-blue);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navigation-menu-icon {
-  height: 100px;
+  max-height: 100px;
   padding-right: 5vh;
 }
 .navigation-links {
   text-align: center;
+  display: flex;
+  gap: 2vw;
 }
 
-.navigation-menu ul li {
+.navigation-links a {
   list-style: none;
   display: inline-block;
   position: relative;
+  text-decoration: none;
+  font-size: var(--size-text-menu);
+  font-weight: 700;
+  color: var(--color-text-white);
+  cursor: pointer;
 }
-.navigation-menu ul li::after {
+.navigation-menu a::after {
   background: var(--color-text-white);
   /*content property is needed because it wouldn't work*/
   content: "";
@@ -41,14 +43,10 @@ header {
   width: 0%;
   transition: width 0.5s;
 }
-.navigation-menu ul li:hover::after {
+.navigation-menu a:hover::after {
   width: 100%;
 }
 
-.navigation-menu ul li a {
-  text-decoration: none;
-  font-size: var(--size-text-menu);
-  font-weight: 700;
-  color: var(--color-text-white);
-  cursor: pointer;
+/*MOBILE - Header*/
+@media (max-width: 700px) {
 }

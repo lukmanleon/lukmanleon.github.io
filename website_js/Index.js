@@ -13,6 +13,8 @@ function copyEmailToClipboard(id) {
   }, 3500); // <-- time in milliseconds
 }
 
+
+/* Navigation Menu - Hide/Show */
 var navLinks = document.getElementById("navigation-links");
 function showMenu() {
   navLinks.style.right = "0";
