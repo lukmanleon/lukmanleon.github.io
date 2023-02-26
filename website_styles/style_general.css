@@ -7,6 +7,8 @@
 :root {
   --color-background-white: #ffffff;
   --color-navigation-background-blue: #00416a;
+  --color-navigation-background-mobile-red: #f44336;
+
   --color-general-white: #ffffff;
   --color-general-blue: #00416a;
   --color-text-white: #ffffff;

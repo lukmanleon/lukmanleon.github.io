@@ -16,6 +16,11 @@ header {
   max-height: 100px;
   padding-right: 5vh;
 }
+.navigation-menu-icon-cross,
+.navigation-menu-icon-hamburger {
+  display: none;
+}
+
 .navigation-links {
   text-align: center;
   display: flex;
@@ -45,8 +50,4 @@ header {
 }
 .navigation-menu a:hover::after {
   width: 100%;
-}
-
-/*MOBILE - Header*/
-@media (max-width: 700px) {
 }

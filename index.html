@@ -8,9 +8,15 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/x-icon" href="/icons/icon_leon_favicon.ico" />
   <title>Lukman Leon</title>
+
+  <!-- WEBSITE STYLES -->
   <link rel="stylesheet" href="website_styles/style_general.css" />
   <link rel="stylesheet" href="website_styles/style_header.css" />
+  <link rel="stylesheet" href="website_styles/style_header_mobile.css" />
+
   <link rel="stylesheet" href="website_styles/style_footer.css" />
+  <link rel="stylesheet" href="website_styles/style_footer_mobile.css" />
+
   <link rel="stylesheet" href="website_styles/about_styles/style_about_main.css" />
   <link rel="stylesheet" href="website_styles/about_styles/style_about_main_mobile.css" />
 
@@ -26,8 +32,10 @@
 <body>
   <header>
     <nav class="navigation-menu">
-      <img src="icons/icon_qa_symbol.svg" onclick="showMenu()" class="navigation-menu-icon">
-      <div class="navigation-links">
+      <img src="icons/icon_qa_symbol.svg" class="navigation-menu-icon">
+      <img src="icons/icon_hamburger_menu.svg" class="navigation-menu-icon-hamburger" onclick="showMenu()">
+      <div class="navigation-links" id="navigation-links">
+        <img src="icons/icon_cross.svg" alt="" class="navigation-menu-icon-cross" onclick="hideMenu()">
         <a href="index.html">About Me</a>
         <a href="page_resume.html">Resume</a>
         <a href="page_hobbies.html">My Interests & Hobbies</a>

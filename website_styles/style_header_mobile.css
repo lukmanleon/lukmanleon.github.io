@@ -1,0 +1,52 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    height: 10vh;
+  }
+
+  .navigation-menu {
+    min-height: 8vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 10vw;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .navigation-menu-icon {
+    display: none;
+  }
+  .navigation-menu-icon-cross {
+    display: block;
+    width: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    filter: invert(1);
+    border-radius: 50%;
+  }
+
+  .navigation-menu-icon-hamburger {
+    display: block;
+    width: 30px;
+    filter: invert(1);
+  }
+
+  .navigation-links {
+    background: var(--color-navigation-background-mobile-red);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -300px;
+    z-index: 2;
+    flex-direction: column;
+    position: fixed;
+    text-align: left;
+    transition: 1s;
+    padding: 30px;
+    gap: 0;
+  }
+
+  .navigation-links a {
+    padding-top: 5vh;
+    font-size: var(--size-text-menu);
+  }
+}
