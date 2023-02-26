@@ -17,3 +17,14 @@ main {
   margin-top: 50px;
   font-size: var(--size-text-title);
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  main {
+    width: 90%;
+    margin-top: 5vh;
+  }
+
+  .knowledge-and-experience h3 {
+    font-size: var(--size-text-title-mobile);
+  }
+}

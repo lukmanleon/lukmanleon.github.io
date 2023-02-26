@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="website_styles/resume_styles/style_resume_main.css" />
 
   <link rel="stylesheet" href="website_styles/resume_styles/style_resume_work_experience.css" />
+  <link rel="stylesheet" href="website_styles/resume_styles/style_resume_work_experience_mobile.css" />
+
   <link rel="stylesheet" href="website_styles/resume_styles/style_resume_education.css" />
   <link rel="stylesheet" href="website_styles/resume_styles/style_resume_certifications.css" />
   <link rel="stylesheet" href="website_styles/resume_styles/style_resume_languages.css" />
@@ -36,13 +38,13 @@
 <body>
   <header>
     <nav class="navigation-menu">
-      <div class="navigation-menu-icon"><img src="icons/icon_qa_symbol.svg" alt=""></div>
-      <div class="navigation-links">
-        <ul>
-          <li><a href="index.html">About Me</a></li>
-          <li><a href="page_resume.html">Resume</a></li>
-          <li><a href="page_hobbies.html">My Interests & Hobbies</a></li>
-        </ul>
+      <img src="icons/icon_qa_symbol.svg" class="navigation-menu-icon">
+      <img src="icons/icon_hamburger_menu.svg" class="navigation-menu-icon-hamburger" onclick="showMenu()">
+      <div class="navigation-links" id="navigation-links">
+        <img src="icons/icon_cross.svg" alt="" class="navigation-menu-icon-cross" onclick="hideMenu()">
+        <a href="index.html">About Me</a>
+        <a href="page_resume.html">Resume</a>
+        <a href="page_hobbies.html">My Interests & Hobbies</a>
       </div>
     </nav>
   </header>
@@ -255,7 +257,7 @@
   </footer>
 
   <!--JAVASCRIPT-->
-  <script src="website_js/copyEmail.js"></script>
+  <script src="website_js/Index.js"></script>
 </body>
 
 </html>
