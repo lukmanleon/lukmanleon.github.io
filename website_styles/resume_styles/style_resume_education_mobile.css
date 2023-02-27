@@ -1,0 +1,38 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .education-item {
+    margin-left: 0;
+  }
+
+  .education-item .circle {
+    font-size: var(--size-text-normal-mobile);
+    margin-left: 20px;
+  }
+
+  .education-duration {
+    width: 150px;
+  }
+
+  .education-information {
+    margin-left: 20px;
+  }
+
+  .education-level,
+  .education-duration span {
+    font-size: var(--size-text-normal-mobile);
+    font-weight: 600;
+  }
+
+  .education-level-information {
+    font-size: var(--size-text-info-mobile);
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .education-level-information p {
+    padding-top: 1vh;
+    letter-spacing: 1px;
+  }
+  .education-level-information span {
+    font-weight: 600;
+    margin-left: 0;
+  }
+}

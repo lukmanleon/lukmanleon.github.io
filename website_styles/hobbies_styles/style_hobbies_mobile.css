@@ -1,0 +1,19 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .blender {
+    margin-bottom: 10vh;
+  }
+  .blender h3 {
+    margin-top: 8vh;
+    font-size: var(--size-text-title-mobile);
+  }
+  .blender-art {
+    margin-top: 5vh;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+
+  .blender-image {
+    height: 250px;
+    height: 200px;
+  }
+}

@@ -7,26 +7,26 @@
 :root {
   --color-background-white: #ffffff;
   --color-navigation-background-blue: #00416a;
-  --color-navigation-background-mobile-red: #f44336;
+  --color-navigation-background-mobile: #0065A3;
 
   --color-general-white: #ffffff;
   --color-general-blue: #00416a;
   --color-text-white: #ffffff;
   --color-text-blue: #00416a;
 
-  --size-text-quote: 34pt;
+  --size-text-quote: 42px;
   --size-text-title: 32px;
-  --size-text-menu: 1.5rem;
+  --size-text-menu: 28px;
   --size-text-normal: 24px;
-  --size-text-info: 16pt;
+  --size-text-info: 16px;
   --size-text-label: 16px;
 
-  --size-text-quote-mobile: 16pt;
-  --size-text-title-mobile: 24px;
-  --size-text-menu-mobile: 24px;
-  --size-text-normal-mobile: 12pt;
-  --size-text-info-mobile: 16px;
-  --size-text-label-mobile: 16px;
+  --size-text-quote-mobile: 20px;
+  --size-text-title-mobile: 16px;
+  --size-text-menu-mobile: 16px;
+  --size-text-normal-mobile: 14px;
+  --size-text-info-mobile: 12px;
+  --size-text-label-mobile: 10px;
 
   font-family: Roboto, Arial, sans-serif;
 }
@@ -43,23 +43,23 @@ body {
   z-index: 99;
   height: 20px;
   border: 1px solid var(--color-general-blue);
+  box-shadow: 0px 1px 8px var(--color-general-blue);
   border-radius: 10px;
   background: transparent;
   color: var(--color-text-blue);
-  box-shadow: 0px 1px 8px var(--color-general-blue);
   padding: 20px;
-  font-size: 20px;
+  font-size: var(--size-text-info);
   font-weight: 700;
   text-align: center;
   letter-spacing: 1px;
   display: none;
+  margin-bottom: 5vh;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   #mtoast {
     height: auto;
     width: 80%;
-    margin-bottom: 5vh;
     font-size: var(--size-text-info-mobile);
   }
 }

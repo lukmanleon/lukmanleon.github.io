@@ -1,0 +1,20 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .languages p {
+    font-size: var(--size-text-info-mobile);
+  }
+
+  .languages-table {
+    margin-top: 50px;
+    font-size: var(--size-text-normal-mobile);
+  }
+
+  table,
+  th,
+  td {
+    padding: 4px 5px 4px 5px;
+  }
+
+  .row-five {
+    font-size: var(--size-text-label-mobile);
+  }
+}

@@ -3,6 +3,7 @@
     margin-left: 0;
   }
   .work-item .circle {
+    font-size: var(--size-text-normal-mobile);
     margin-left: 20px;
   }
 
@@ -11,12 +12,13 @@
   }
 
   .work-information {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .work-level,
   .work-duration span {
     font-size: var(--size-text-normal-mobile);
+    font-weight: 600;
   }
 
   .work-level-information {

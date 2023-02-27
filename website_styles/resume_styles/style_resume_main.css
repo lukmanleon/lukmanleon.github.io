@@ -1,7 +1,6 @@
 main {
   width: 80%;
-  min-height: 50vh;
-  margin-top: 35vh;
+  margin-top: 15vh;
   margin-bottom: 100px;
 }
 
@@ -14,17 +13,18 @@ main {
 .knowledge-and-experience h3 {
   display: inline-block;
   border-bottom: 2px solid var(--color-general-blue);
-  margin-top: 50px;
+  margin-top: 10vh;
   font-size: var(--size-text-title);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   main {
     width: 90%;
-    margin-top: 5vh;
+    margin-top: 0;
   }
 
   .knowledge-and-experience h3 {
     font-size: var(--size-text-title-mobile);
+    padding-bottom: 10px;
   }
 }

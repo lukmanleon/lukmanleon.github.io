@@ -1,0 +1,21 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .hard-skills {
+    padding-top: 3vh;
+
+    display: inline-block;
+    font-size: var(--size-text-normal-mobile);
+  }
+
+  .hard-skills span {
+    font-size: var(--size-text-normal-mobile);
+  }
+
+  .hard-skills p {
+    font-size: var(--size-text-info-mobile);
+  }
+
+  .digital-skills-text,
+  .soft-skills-text {
+    font-size: var(--size-text-normal-mobile);
+  }
+}

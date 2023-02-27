@@ -9,16 +9,12 @@
   }
 
   .social-media-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
   }
 
   .social-media-card p {
-    font-size: 10pt;
+    font-size: var(--size-text-info);
     margin-top: 1vh;
     opacity: 1;
   }

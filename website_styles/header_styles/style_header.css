@@ -14,7 +14,7 @@ header {
 
 .navigation-menu-icon {
   max-height: 100px;
-  padding-right: 5vh;
+  padding-right: 5vw;
 }
 .navigation-menu-icon-cross,
 .navigation-menu-icon-hamburger {
@@ -24,7 +24,7 @@ header {
 .navigation-links {
   text-align: center;
   display: flex;
-  gap: 2vw;
+  gap: 3vw;
 }
 
 .navigation-links a {
