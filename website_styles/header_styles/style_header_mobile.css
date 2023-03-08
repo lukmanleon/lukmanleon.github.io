@@ -52,4 +52,14 @@
     padding-top: 5vh;
     font-size: var(--size-text-menu-mobile);
   }
+
+  .navigation-menu a::after {
+    background: none;
+    content: "";
+    height: 0;
+    margin: auto;
+    display: block;
+    width: 0%;
+    transition: none;
+  }
 }

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .certificates {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 0;
     row-gap: 25px;
@@ -18,5 +18,40 @@
   .certificate-name {
     font-size: var(--size-text-info-mobile);
     font-weight: 600;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .mySlides {
+    height: 200px;
+    width: 300px;
+  }
+
+  .next {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: var(--size-text-quote-mobile);
+    border-radius: 50%;
+  }
+  .prev {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: var(--size-text-quote-mobile);
+    border-radius: 50%;
+  }
+
+  .caption-container {
+    padding: 10px 30px 10px 30px;
+    font-size: var(--size-text-normal-mobile);
+  }
+
+  .row {
+    display: none;
   }
 }

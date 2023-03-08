@@ -1,5 +1,6 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .languages p {
+    margin-top: 20px;
     font-size: var(--size-text-info-mobile);
   }
 
