@@ -6,7 +6,7 @@
 
   .languages-table {
     margin-top: 50px;
-    font-size: var(--size-text-normal-mobile);
+    font-size: var(--size-text-info-mobile);
   }
 
   table,

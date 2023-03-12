@@ -5,7 +5,7 @@
 
   .social-media-account {
     flex-direction: column;
-    gap: 5vh;
+    gap: 2vh;
   }
 
   .social-media-card {
@@ -14,7 +14,7 @@
   }
 
   .social-media-card p {
-    font-size: var(--size-text-info);
+    font-size: var(--size-text-info-mobile);
     margin-top: 1vh;
     opacity: 1;
   }
@@ -24,7 +24,7 @@
     border-radius: none;
   }
   .social-icon {
-    width: 40px;
+    width: 30px;
     padding: 0;
   }
 }
