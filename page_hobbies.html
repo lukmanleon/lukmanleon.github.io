@@ -9,6 +9,10 @@
   <link rel="icon" type="image/x-icon" href="/icons/icon_leon_favicon.ico" />
   <title>Lukman Leon</title>
 
+  <!-- Bootstrap - HTML -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
   <!-- WEBSITE STYLES -->
   <link rel="stylesheet" href="website_styles/style_general.css" />
   <link rel="stylesheet" href="website_styles/header_styles/style_header.css" />
@@ -64,7 +68,18 @@
   </main>
 
   <!-- TOAST MESSAGE -->
-  <div id="mtoast">My email address has been copied to your clipboard!</div>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Email address</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        My email address has been copied to your clipboard!
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="social-media-account">
@@ -96,6 +111,10 @@
   </footer>
 
   <!--JAVASCRIPT-->
+  <!-- Bootstrap - JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
   <script src="website_js/Index.js"></script>
 </body>
 

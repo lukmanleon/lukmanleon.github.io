@@ -1,15 +1,10 @@
 // COPY EMAIL TO CLIPBOARD
-function copyEmailToClipboard(id) {
-  let text = document.getElementById(id).innerHTML;
-  navigator.clipboard.writeText(text);
-
-  let toast = document.getElementById("mtoast");
-  toast.innerHTML = "My email address has been copied to your clipboard!";
-  toast.style.display = "block";
-
-  setTimeout(function () {
-    toast.style.display = "none";
-  }, 3500); // <-- time in milliseconds
+function copyEmailToClipboard() {
+  let toastLiveExample = document.getElementById("liveToast");
+  let toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+  
+  toastBootstrap.show();
+  navigator.clipboard.writeText("lukman.leon@gmail.com");
 }
 
 // NAVIGATION MENU - SHOW
