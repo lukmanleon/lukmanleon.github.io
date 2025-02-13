@@ -47,8 +47,8 @@
 .mySlides {
   display: none;
   justify-content: center;
-  height: 550px;
-  width: 800px;
+  height: 500px;
+  width: auto;
 }
 
 .preview {
@@ -99,7 +99,8 @@
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 15%;
+  margin-top: 20px;
 }
 
 /* Add a transparency effect for thumnbail images */
